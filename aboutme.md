@@ -1,16 +1,22 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Jisha Obukwelu | Data Scientist
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Making sense out of the world using data. Part time student, full time mom. 
 
-What else do you need?
+**Education**
+- accounting
+- teaching
 
-### my history
+**Proofreading/Accounting**
+- 3 years
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Teacher**
+- 9 years
+
+**Homeschooling Mom**
+- 5 years
