@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: 
+subtitle: Making sense out of the world using data
 ---
 
 Jisha Obukwelu | Data Scientist
