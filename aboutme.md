@@ -1,10 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Making sense out of the world using data
+subtitle: educator, dreamer, data scientist 
 ---
-
-Jisha Obukwelu | Data Scientist
 
 Making sense out of the world using data. Part time student, full time mom. 
 
