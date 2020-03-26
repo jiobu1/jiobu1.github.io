@@ -4,6 +4,7 @@ title: About me
 subtitle: educator, dreamer, data scientist 
 ---
 
+
 Making sense out of the world using data. Part time student, full time mom. 
 
 **Education**
