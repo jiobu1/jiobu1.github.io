@@ -51,7 +51,7 @@ comments: true
 <img src="../img/ucr_literal.png" alt="Crime Statistics for Past 10 Years">
 <h5>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</h5>
 
-<p>To see this better, I created individual plots to highlight changes</p>
+<p>To see this better, I created individual plots to highlight changes.</p>
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
