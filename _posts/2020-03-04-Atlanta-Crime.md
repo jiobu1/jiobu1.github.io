@@ -38,7 +38,7 @@ comments: true
 
 <h4>Percentage Increase in Crimes by Neighborhood</h4>
 <img src="../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
-<h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
+<h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a> — Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
  
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
 
@@ -55,8 +55,8 @@ comments: true
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
-</div>
 <h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</h5>
+</div>
 
 <p>Of the 11 crime categories, 10 have increased in these neighborhoods. Homicides went up 46%, commercial robbery 43%, residential robbery 33%, vehicle larceny 24%, aggravated assault 19%, non-vehicle larceny 18%, residential burglary 15%, pedestrian robbery 11%, auto theft 4%, and non-residential robbery 4%. The only category which did not go up is manslaughter.</p>
 
