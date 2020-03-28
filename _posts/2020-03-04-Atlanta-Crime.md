@@ -28,9 +28,9 @@ comments: true
 <h2>Yes, But… Did All Neighborhoods Have a Decrease?</h2>
 
 <div class="video-container">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="525" width="100%"></iframe>
-</div>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="500" width="100%"></iframe>
 <h5>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</h5>
+</div>
 
 <p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
 
@@ -54,7 +54,7 @@ comments: true
 <p>To see this better, I created individual plots to highlight changes.</p>
 
 <div class = "video-container">
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
+<iframe width="900" height="750" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
 <h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</h5>
 </div>
 
