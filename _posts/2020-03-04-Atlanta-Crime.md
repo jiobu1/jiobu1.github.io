@@ -34,10 +34,9 @@ comments: true
 
 <p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
 
-<h2>Percentage Increase in Crimes by Neighborhood</h2>
-
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
+<h4>Percentage Increase in Crimes by Neighborhood</h4>
 <img src="../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
 <h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
  
