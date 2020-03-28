@@ -55,7 +55,7 @@ comments: true
 
 <div class = "video-container">
 <iframe width="900" height="750" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
-<h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase 2018–2019</h5>
+<h5>These graphs use the 94 neighborhoods that have experienced an increase from 2018–2019</h5>
 </div>
 
 <p>Of the 11 crime categories, 10 have increased in these neighborhoods. Homicides went up 46%, commercial robbery 43%, residential robbery 33%, vehicle larceny 24%, aggravated assault 19%, non-vehicle larceny 18%, residential burglary 15%, pedestrian robbery 11%, auto theft 4%, and non-residential robbery 4%. The only category which did not go up is manslaughter.</p>
