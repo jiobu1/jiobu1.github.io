@@ -15,14 +15,12 @@ comments: true
 
 <p>After we purchased our home, I became active my in community. I joined the community page to keep abreast of happenings and try to do my part in being a good neighbor. One of the many recurring topics, especially in the past year, has been the rise in crime. Even my husband, who loves Atlanta, has taken notice. What did this mean? Should I run back to the comfort of the crime ridden streets of my childhood? Before packing my bags, I realized, I could test this with data.</p>
 
-<p>I was able to find crime records from the Atlanta PD website (<a href = https://www.atlantapd.org/i-want-to/crime-data-downloads, target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
+<p>I was able to find crime records from the Atlanta PD website (<a href = "https://www.atlantapd.org/i-want-to/crime-data-downloads", target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
 
 <h2>Is Crime in Atlanta Rising?</h2>
 
-<figure>
-	<img src=".../img/change_over_years.png" alt="Crime Statistics for Past 10 Years" style="width:100%">
-	<figcaption>According to this graph, crimes seems to have be on a steep decline since 2009.</figcaption>
-</figure> 
+<img src= ".../img/change_over_years.png" alt="Crime Statistics for Past 10 Years" style="width:100%">
+<figcaption>According to this graph, crimes seems to have be on a steep decline since 2009.</figcaption>
 
 <p>After capturing a quick summary of the data, I could see that overall crime has been on a steep decline, but this did not satisfy me. I had more questions, was crime rates in all Atlanta neighborhoods decreasing? Also, were all crimes decreasing? So I dug further into the dataset to see what else I could find.</p>
 
@@ -43,13 +41,9 @@ comments: true
 
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
-<figure>
-	<img src=".../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods" style="width:100%">
-	<figcaption> 
-		<a href = "https://plot.ly/~jiobu1/18/" target="blank"> https://plot.ly/~jiobu1/18/ </a> 
-		Click to view an interactive graph — shows the numeric increase from 2018 to 2019
-	</figcaption>
-</figure> 
+<img src=".../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods" style="width:100%">
+<figcaption> <a href = https://plotly.com/~jiobu1/18/" target="blank"> https://plotly.com/~jiobu1/18/ </a> Click to view an interactive graph — shows the numeric increase from 2018 to 2019</figcaption>
+ 
 
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.
 </p>
@@ -60,21 +54,17 @@ comments: true
 
 <p>The crimes are grouped into 11 categories.</p>
 
-<figure>
-	<img src=".../ucr_literal.png" alt="Crime Statistics for Past 10 Years" style="width:100%">
-	<figcaption>
-		All crimes recorded crimes increased in these neighborhood, except for manslaughter.
-	</figcaption>
-</figure> 
+<img src=".../ucr_literal.png" alt="Crime Statistics for Past 10 Years" style="width:100%">
+<figcaption>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</figcaption>
+
 
 <p>To see this better, I created individual plots to highlight changes</p>
 
 <p>Crime Increase over the Past Decade</p>
 
 <div class = "video-container">
-	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~jiobu/1.embed" height="525" width="100%"></iframe>
-	<figcaption> 
-		These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019
+	<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
+	<figcaption>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019
 	</figcaption>
 </div>
 
