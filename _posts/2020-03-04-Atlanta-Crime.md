@@ -18,8 +18,8 @@ comments: true
 
 <h2>Is Crime in Atlanta Rising?</h2>
 
-<img src=".../img/change_over_years.png" alt="Crime Statistics for Past 10 Years">
-<p>According to this graph, crimes seems to have be on a steep decline since 2009.</p>
+<img src="../img/change_over_years.png" alt="Crime Statistics for Past 10 Years">
+<h5>According to this graph, crimes seems to have be on a steep decline since 2009.</h5>
 
 <p>After capturing a quick summary of the data, I could see that overall crime has been on a steep decline, but this did not satisfy me. I had more questions, was crime rates in all Atlanta neighborhoods decreasing? Also, were all crimes decreasing? So I dug further into the dataset to see what else I could find.</p>
 
@@ -28,9 +28,9 @@ comments: true
 <h2>Yes, But… Did All Neighborhoods Have a Decrease?</h2>
 
 <div class="video-container">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src=".../img/index.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="525" width="100%"></iframe>
 </div>
-<p>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</p>
+<h5>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</h5>
 
 <p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
 
@@ -38,8 +38,8 @@ comments: true
 
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
-<img src=".../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
-<p> <a href = https://chart-studio.plotly.com/~jiobu1/18/" target="blank">https://chart-studio.plotly.com/~jiobu1/18/ </a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</p>
+<img src="../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
+<h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
  
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
 
@@ -49,15 +49,15 @@ comments: true
 
 <p>The crimes are grouped into 11 categories.</p>
 
-<img src=".../img/ucr_literal.png" alt="Crime Statistics for Past 10 Years">
-<p>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</p>
+<img src="../img/ucr_literal.png" alt="Crime Statistics for Past 10 Years">
+<h5>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</h5>
 
 <p>To see this better, I created individual plots to highlight changes</p>
 
 <div class = "video-container">
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//chart-studio.plotly.com/~jiobu1/21.embed"></iframe>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
 </div>
-<p>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</p>
+<h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</h5>
 
 <p>Of the 11 crime categories, 10 have increased in these neighborhoods. Homicides went up 46%, commercial robbery 43%, residential robbery 33%, vehicle larceny 24%, aggravated assault 19%, non-vehicle larceny 18%, residential burglary 15%, pedestrian robbery 11%, auto theft 4%, and non-residential robbery 4%. The only category which did not go up is manslaughter.</p>
 
