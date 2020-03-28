@@ -28,7 +28,7 @@ comments: true
 <h2>Yes, But… Did All Neighborhoods Have a Decrease?</h2>
 
 <div class="video-container">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="500" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="450" width="100%"></iframe>
 <h5>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</h5>
 </div>
 
@@ -55,7 +55,7 @@ comments: true
 
 <div class = "video-container">
 <iframe width="900" height="750" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
-<h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</h5>
+<h5>These graphs were generated using the the 94 neighborhoods that have experienced an increase 2018–2019</h5>
 </div>
 
 <p>Of the 11 crime categories, 10 have increased in these neighborhoods. Homicides went up 46%, commercial robbery 43%, residential robbery 33%, vehicle larceny 24%, aggravated assault 19%, non-vehicle larceny 18%, residential burglary 15%, pedestrian robbery 11%, auto theft 4%, and non-residential robbery 4%. The only category which did not go up is manslaughter.</p>
