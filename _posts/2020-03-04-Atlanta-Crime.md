@@ -12,7 +12,6 @@ comments: true
 
 <p>Atlanta is known as the New York City of the South. Having lived most of my life in New York, between the two greatest boroughs — The Bronx and Manhattan — I found this hard to believe. Prior to moving, my husband had sold me on an urban oasis, that had all the culture and excitement of New York but with more trees and less crime. When we settled down, I was ready to live a life of clean-aired leisure and safety but would this bubble soon be shattered?</p>
 
-
 <p>After we purchased our home, I became active my in community. I joined the community page to keep abreast of happenings and try to do my part in being a good neighbor. One of the many recurring topics, especially in the past year, has been the rise in crime. Even my husband, who loves Atlanta, has taken notice. What did this mean? Should I run back to the comfort of the crime ridden streets of my childhood? Before packing my bags, I realized, I could test this with data.</p>
 
 <p>I was able to find crime records from the Atlanta PD website (<a href = "https://www.atlantapd.org/i-want-to/crime-data-downloads", target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
@@ -28,12 +27,10 @@ comments: true
 
 <h2>Yes, But… Did All Neighborhoods Have a Decrease?</h2>
 
-<div class = "video-container">
-	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src=".../img/index.html" height="525" width="100%"></iframe>
-	<figcaption> 
-		This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.
-	</figcaption>
+<div class="video-container">
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src=".../img/index.html" height="525" width="100%"></iframe>
 </div>
+<p>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</p>
 
 <p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
 
@@ -42,9 +39,8 @@ comments: true
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
 <img src=".../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods" style="width:100%">
-<figcaption> <a href = https://plotly.com/~jiobu1/18/" target="blank"> https://plotly.com/~jiobu1/18/ </a> Click to view an interactive graph — shows the numeric increase from 2018 to 2019</figcaption>
+<p> <a href = https://plotly.com/~jiobu1/18/" target="blank"> https://plotly.com/~jiobu1/18/ </a> Click to view an interactive graph — shows the numeric increase from 2018 to 2019</p>
  
-
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.
 </p>
 
@@ -55,18 +51,14 @@ comments: true
 <p>The crimes are grouped into 11 categories.</p>
 
 <img src=".../ucr_literal.png" alt="Crime Statistics for Past 10 Years" style="width:100%">
-<figcaption>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</figcaption>
-
+<p>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</p>
 
 <p>To see this better, I created individual plots to highlight changes</p>
 
-<p>Crime Increase over the Past Decade</p>
-
 <div class = "video-container">
-	<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
-	<figcaption>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019
-	</figcaption>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
 </div>
+<p>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</p>
 
 <p>Of the 11 crime categories, 10 have increased in these neighborhoods. Homicides went up 46%, commercial robbery 43%, residential robbery 33%, vehicle larceny 24%, aggravated assault 19%, non-vehicle larceny 18%, residential burglary 15%, pedestrian robbery 11%, auto theft 4%, and non-residential robbery 4%. The only category which did not go up is manslaughter.</p>
 
