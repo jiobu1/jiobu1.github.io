@@ -39,7 +39,7 @@ comments: true
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
 <img src=".../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
-<p> <a href = https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/ </a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</p>
+<p> <a href = https://chart-studio.plotly.com/~jiobu1/18/" target="blank">https://chart-studio.plotly.com/~jiobu1/18/ </a>Click to view an interactive graph — shows the numeric increase from 2018 to 2019</p>
  
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
 
@@ -55,7 +55,7 @@ comments: true
 <p>To see this better, I created individual plots to highlight changes</p>
 
 <div class = "video-container">
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/21.embed"></iframe>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//chart-studio.plotly.com/~jiobu1/21.embed"></iframe>
 </div>
 <p>These graphs were generated using the the 94 neighborhoods that have experienced an increase in crime from 2018–2019</p>
 
