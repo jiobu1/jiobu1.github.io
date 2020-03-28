@@ -14,7 +14,7 @@ comments: true
 
 <p>After we purchased our home, I became active my in community. I joined the community page to keep abreast of happenings and try to do my part in being a good neighbor. One of the many recurring topics, especially in the past year, has been the rise in crime. Even my husband, who loves Atlanta, has taken notice. What did this mean? Should I run back to the comfort of the crime ridden streets of my childhood? Before packing my bags, I realized, I could test this with data.</p>
 
-<p>I was able to find crime records from the Atlanta PD website (<a href = "https://www.atlantapd.org/i-want-to/crime-data-downloads", target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
+<p>I was able to find crime records from the Atlanta PD website (<a href = "https://www.atlantapd.org/i-want-to/crime-data-downloads" target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
 
 <h2>Is Crime in Atlanta Rising?</h2>
 
