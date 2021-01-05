@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Atlanta Crime on the Rise?
-# subtitle: A look at crime in the Atlanta for the past 10 years
-# gh-repo: github.com/jiobu1
-# #gh-badge: [star, fork, follow]
-# tags: []
-# comments: true
+subtitle: A look at crime in the Atlanta for the past 10 years
+gh-repo: github.com/jiobu1
+#gh-badge: [star, fork, follow]
+tags: [Crime, Atlanta, Data Visualization, Plotly]
+comments: true
 ---
 
 <img src = "../img/unit1/atlanta.png" alt="Atlanta" class="center">
