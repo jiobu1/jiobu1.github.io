@@ -4,7 +4,7 @@ title: Atlanta Crime on the Rise?
 subtitle: A look at crime in the Atlanta for the past 10 years
 gh-repo: github.com/jiobu1
 #gh-badge: [star, fork, follow]
-tags: [test]
+tags: [Crime][Data Visualizations][Plotly]
 comments: true
 ---
 
