@@ -28,7 +28,7 @@ comments: true
 <h2>Yes, But… Did All Neighborhoods Have a Decrease?</h2>
 
 <div class="video-container">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/index.html" height="450" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../img/unit1/index.html" height="450" width="100%"></iframe>
 <h5>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</h5>
 </div>
 
@@ -38,7 +38,8 @@ comments: true
 
 <h4>Percentage Increase in Crimes by Neighborhood</h4>
 <img src="../img/unit1/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
-<h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a> — Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
+<h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a></h5>
+<h5> — Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
 
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
 
