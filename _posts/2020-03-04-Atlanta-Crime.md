@@ -12,7 +12,7 @@ comments: true
 
 <p>Atlanta is known as the New York City of the South. Having lived most of my life in New York, between the two greatest boroughs — The Bronx and Manhattan — I found this hard to believe. Prior to moving, my husband had sold me on an urban oasis, that had all the culture and excitement of New York but with more trees and less crime. When we settled down, I was ready to live a life of clean-aired leisure and safety but would this bubble soon be shattered?</p>
 
-<p>After we purchased our home, I became active my in community. I joined the community page to keep abreast of happenings and try to do my part in being a good neighbor. One of the many recurring topics, especially in the past year, has been the rise in crime. Even my husband, who loves Atlanta, has taken notice. What did this mean? Should I run back to the comfort of the crime ridden streets of my childhood? Before packing my bags, I realized, I could test this with data.</p>
+<p>After we purchased our home, I became active in my community. I joined the community page to keep abreast of happenings and try to do my part in being a good neighbor. One of the many recurring topics, especially in the past year, has been the rise in crime. Even my husband, who loves Atlanta, has taken notice. What did this mean? Should I run back to the comfort of the crime ridden streets of my childhood? Before packing my bags, I realized, I could test this with data.</p>
 
 <p>I was able to find crime records from the Atlanta PD website (<a href="https://www.atlantapd.org/i-want-to/crime-data-downloads" target="blank">https://www.atlantapd.org/i-want-to/crime-data-downloads</a>), these records contain crime reports from 2009–2019. The first question I tried to answer with this data is crime in Atlanta on the rise?</p>
 
@@ -32,7 +32,7 @@ comments: true
 <h5>This graph explores types of crimes committed in 2019 and plots them based on longitude and latitude.</h5>
 </div>
 
-<p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
+<p>Were all neighborhoods in Atlanta experiencing a decrease in crime? I wanted find out if my neighborhood of North Buckhead, experienced a surge (This would let me know if I needed to book my ticket). The Atlanta PD’s dataset, has neighborhood information recorded for the different crimes. Using this information, I was able to aggregate crime rates by neighborhoods. The chart below shows the neighborhoods that have experienced an increase crimes.</p>
 
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
