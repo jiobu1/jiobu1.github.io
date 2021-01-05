@@ -8,7 +8,7 @@ tags: [Crime][Data Visualizations][Plotly]
 comments: true
 ---
 
-<img src = "../img/atlanta.png" alt="Atlanta" class="center">
+<img src = "../img/unit1/atlanta.png" alt="Atlanta" class="center">
 
 <p>Atlanta is known as the New York City of the South. Having lived most of my life in New York, between the two greatest boroughs — The Bronx and Manhattan — I found this hard to believe. Prior to moving, my husband had sold me on an urban oasis, that had all the culture and excitement of New York but with more trees and less crime. When we settled down, I was ready to live a life of clean-aired leisure and safety but would this bubble soon be shattered?</p>
 
@@ -18,7 +18,7 @@ comments: true
 
 <h2>Is Crime in Atlanta Rising?</h2>
 
-<img src="../img/change_over_years.png" alt="Crime Statistics for Past 10 Years">
+<img src="../img/unit1/change_over_years.png" alt="Crime Statistics for Past 10 Years">
 <h5>According to this graph, crimes seems to have be on a steep decline since 2009.</h5>
 
 <p>After capturing a quick summary of the data, I could see that overall crime has been on a steep decline, but this did not satisfy me. I had more questions, was crime rates in all Atlanta neighborhoods decreasing? Also, were all crimes decreasing? So I dug further into the dataset to see what else I could find.</p>
@@ -37,7 +37,7 @@ comments: true
 <p>My next question, is which crimes were to account for this increase? To find this out, I took a subset of the Atlanta PD dataset. I used the 94 neighborhoods that experienced a surge, to see which crimes were to blame for this increase.</p>
 
 <h4>Percentage Increase in Crimes by Neighborhood</h4>
-<img src="../img/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
+<img src="../img/unit1/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
 <h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a> — Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
  
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
@@ -48,7 +48,7 @@ comments: true
 
 <p>The crimes are grouped into 11 categories.</p>
 
-<img src="../img/ucr_literal.png" alt="Crime Statistics for Past 10 Years">
+<img src="../img/unit1/ucr_literal.png" alt="Crime Statistics for Past 10 Years">
 <h5>All crimes recorded crimes increased in these neighborhood, except for manslaughter.</h5>
 
 <p>To see this better, I created individual plots to highlight changes.</p>
