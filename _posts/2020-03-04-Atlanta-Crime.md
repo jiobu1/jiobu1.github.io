@@ -39,7 +39,7 @@ comments: true
 <h4>Percentage Increase in Crimes by Neighborhood</h4>
 <img src="../img/unit1/crime_neighborhood.png" alt="Crime Increase by Neighborhoods">
 <h5> <a href = "https://plotly.com/~jiobu1/18/" target="blank">https://plotly.com/~jiobu1/18/</a> — Click to view an interactive graph — shows the numeric increase from 2018 to 2019</h5>
- 
+
 <p>Out of the 243 neighborhoods recorded in this dataset 38%, or 94 neighborhoods, experienced an increase in crime from 2018 to 2019. My neighborhood was not on this list but several surrounding neighborhoods has experienced an increase.</p>
 
 <h2>Which Crimes Attributed to the Rise in These Neighborhoods?</h2>
