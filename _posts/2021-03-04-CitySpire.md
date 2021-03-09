@@ -90,7 +90,7 @@ comments: true
 
 <p>Another data driven decision was determining how to summarize certain information to disseminate to the user. Users normally want a snapshot or a succinct representation of the data and it is important to convey this information without bias. I created a summary column for crime, pollution, and diversity.</p>
 
-<p><a href="https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf">><strong>Crime Rate per 1,000 inhabitants:</strong></a> To summarize crime data, I used FBI crime reporting standard of reporting crime per 1000 residents. This represents the number of Index offenses per 1,000 inhabitants.For example: What is the crime rate for a municipality with 513 Index offenses (murder, rape, robbery, aggravated assault, burglary, larceny-theft and motor vehicle theft), with a population of 8,280? 513 (Index offenses) ÷ 8,280 (population) = .061957 x 1,000 = 62.0 (crime per 1,000 inhabitants). This was then binned into “High”, “Medium”, and “Low” using pd.qcut.</p>
+<p><a href="https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf"><strong>Crime Rate per 1,000 inhabitants:</strong></a> To summarize crime data, I used FBI crime reporting standard of reporting crime per 1000 residents. This represents the number of Index offenses per 1,000 inhabitants.For example: What is the crime rate for a municipality with 513 Index offenses (murder, rape, robbery, aggravated assault, burglary, larceny-theft and motor vehicle theft), with a population of 8,280? 513 (Index offenses) ÷ 8,280 (population) = .061957 x 1,000 = 62.0 (crime per 1,000 inhabitants). This was then binned into “High”, “Medium”, and “Low” using pd.qcut.</p>
 
 <script src="https://gist.github.com/jiobu1/abca8f9854f6399f51420f557a517743.js"></script>
 
