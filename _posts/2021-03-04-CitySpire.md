@@ -44,7 +44,8 @@ comments: true
 
 <p><strong>From roadmap to implementation</strong></p>
 
-<p>Since we were limited in time and breadth of the project was pretty large, we got right to work. Using the product documentation, we created task cards using Trello so that we could make sure to meet [release features](https://www.notion.so/CitySpire-c5071dd8198441b6999aefbbbc851ca7).</p>
+<p>Since we were limited in time and breadth of the project was pretty large, we got right to work. Using the product documentation, we created task cards using Trello so that we could make sure to meet
+<a href="https://www.notion.so/CitySpire-c5071dd8198441b6999aefbbbc851ca7">release features</a>.</p>
 
 <h2> Data:</h2>
 
@@ -89,7 +90,7 @@ comments: true
 
 <p>Another data driven decision was determining how to summarize certain information to disseminate to the user. Users normally want a snapshot or a succinct representation of the data and it is important to convey this information without bias. I created a summary column for crime, pollution, and diversity.</p>
 
-<p><strong>[Crime Rate per 1,000 inhabitants:]("https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf")</strong> To summarize crime data, I used FBI crime reporting standard of reporting crime per 1000 residents. This represents the number of Index offenses per 1,000 inhabitants.For example: What is the crime rate for a municipality with 513 Index offenses (murder, rape, robbery, aggravated assault, burglary, larceny-theft and motor vehicle theft), with a population of 8,280? 513 (Index offenses) ÷ 8,280 (population) = .061957 x 1,000 = 62.0 (crime per 1,000 inhabitants). This was then binned into “High”, “Medium”, and “Low” using pd.qcut.</p>
+<p><a href="https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf">><strong>Crime Rate per 1,000 inhabitants:</strong></a> To summarize crime data, I used FBI crime reporting standard of reporting crime per 1000 residents. This represents the number of Index offenses per 1,000 inhabitants.For example: What is the crime rate for a municipality with 513 Index offenses (murder, rape, robbery, aggravated assault, burglary, larceny-theft and motor vehicle theft), with a population of 8,280? 513 (Index offenses) ÷ 8,280 (population) = .061957 x 1,000 = 62.0 (crime per 1,000 inhabitants). This was then binned into “High”, “Medium”, and “Low” using pd.qcut.</p>
 
 <script src="https://gist.github.com/jiobu1/abca8f9854f6399f51420f557a517743.js"></script>
 
@@ -120,7 +121,7 @@ comments: true
 
 <p>Most people when looking to relocate, already have a city in mind but we felt that getting a recommendation of similar cities would be a way to open up other possibilities of where the user could look to move to.</p>
 
-<p>To implement the recommendation system, I used a machine learning model called [nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html) from sci-kit learn library. After merging the different data we collected into a dataframe, I scaled the data, so that columns such as rent and population did not get weighted heavier than percentages or decimal numbers. Then a column called nearest was added to the dataframe. This data is then returned using the get_recommendations endpoint.</p>
+<p>To implement the recommendation system, I used a machine learning model called <a href="https://scikit-learn.org/stable/modules/neighbors.html">nearest neighbors</a> from sci-kit learn library. After merging the different data we collected into a dataframe, I scaled the data, so that columns such as rent and population did not get weighted heavier than percentages or decimal numbers. Then a column called nearest was added to the dataframe. This data is then returned using the get_recommendations endpoint.</p>
 
 <script src="https://gist.github.com/jiobu1/719a1016f6e6c6fcd994d04115dd80be.js"></script>
 
@@ -133,7 +134,7 @@ comments: true
 
 <h2> New Tech: </h2>
 
-<p>One of the exciting parts of working on this product was getting experience with new technology. Fortunately, both [FastAPI](https://fastapi.tiangolo.com/tutorial/) and [AWS](https://aws.amazon.com/getting-started/) ([RDS Postgres](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html), [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)) have great documentation.</p>
+<p>One of the exciting parts of working on this product was getting experience with new technology. Fortunately, both <a href="https://fastapi.tiangolo.com/tutorial/">FastAPI</a> and <a href="https://aws.amazon.com/getting-started/">AWS</a> (<a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html">RDS Postgres</a>, <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html">Elastic Beanstalk</a>) have great documentation.</p>
 
 <p>This was where the fun really began!</p>
 
@@ -141,9 +142,9 @@ comments: true
 
 <p><strong>Getting started</strong></p>
 
-<p>Having worked with Flask, there were a lot of similarities that I could carry over. This article [“FASTAPI for Flask Users”](https://amitness.com/2020/06/fastapi-vs-flask/) was very helpful.</p>
+<p>Having worked with Flask, there were a lot of similarities that I could carry over. This article <a href="https://amitness.com/2020/06/fastapi-vs-flask/">“FASTAPI for Flask Users”</a> was very helpful.</p>
 
-<p>To get started we needed a [main.py](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/main.py) file which was provided in our repository, so to test it out, it was as simple as running the following series of commands:</p>
+<p>To get started we needed a <a href="https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/main.py">main.py</a> file which was provided in our repository, so to test it out, it was as simple as running the following series of commands:</p>
 
 <img src = "../img/labs/endpoints/loading_fastapi/Screen Shot 2021-03-02 at 9.48.46 PM.png" alt="1. pipenv install — dev" class="center">
 <h5 align="center"> 1. Install all dependencies needed for application </h5>
@@ -160,11 +161,11 @@ comments: true
 
 <br>
 
-<p>If you run the server and go to the endpoint ``http://127.0.0.1:8000/docs``, you will get an auto-generated swagger documentation. FastAPI is easy to use and the best part is the documentation, which it grabs from your docstrings. This makes it easy to show how to work with the endpoints rather than having to go to separate documentation, like README.md (this would have been where I provided documentation and links if I was working with Flask).</p>
+<p>If you run the server and go to the endpoint <code>http://127.0.0.1:8000/docs</code>, you will get an auto-generated swagger documentation. FastAPI is easy to use and the best part is the documentation, which it grabs from your docstrings. This makes it easy to show how to work with the endpoints rather than having to go to separate documentation, like README.md (this would have been where I provided documentation and links if I was working with Flask).</p>
 
 <h2> AWS Elastic Beanstalk: </h2>
 
-<p>After creating and testing our basic endpoints, now we were ready to deploy the app to AWS Elastic Beanstalk. Our Team Lead provided us with with 12 digit account ID(IAM), and an AWS username & password. After installing ``awscli`` and ``awsebcli`` , we were able to run the following commands and we were in business!</p>
+<p>After creating and testing our basic endpoints, now we were ready to deploy the app to AWS Elastic Beanstalk. Our Team Lead provided us with with 12 digit account ID(IAM), and an AWS username & password. After installing <code>awscli</code> and <code>awsebcli</code> , we were able to run the following commands and we were in business!</p>
 
 <ol>
 <li> `eb init --platform docker CHOOSE-YOUR-NAME --region us-east-1`</li>
@@ -185,7 +186,7 @@ comments: true
 
 <p>Creating a database with AWS RDS was very straightforward. I signed in to the AWS Console and chose the region. Then I just went through the standard create and chose a PostgreSQL, and I was able to create the database instance with their default settings.</p>
 
-<p>When developing locally, I used [python-dotenv](https://pypi.org/project/python-dotenv/) to load an ``.env`` file. (The ``.env`` file is listed in ``.gitignore``.) This made sure that the my username and password were protected. When deploying, we used the Elastic Beanstalk console for [configuring environment variables](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html#environments-cfg-softwaresettings-console) there.</p>
+<p>When developing locally, I used <a href="https://pypi.org/project/python-dotenv/">python-dotenv</a> to load an <code>.env</code> file. (The <code>.env</code> file is listed in </code>.gitignore<code>.) This made sure that the my username and password were protected. When deploying, we used the Elastic Beanstalk console for <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html#environments-cfg-softwaresettings-console">configuring environment variables</a> there.</p>
 
 
 <img src = "../img/labs/aws/rds_postgres.png" alt="Loading environment variables" class="center">
@@ -204,7 +205,7 @@ comments: true
 
 <br>
 
-<p>For the DS team, I created the API endpoints for the [nearest neighbors model](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/ml.py) and the [visualization](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/viz.py) endpoints.</p>
+<p>For the DS team, I created the API endpoints for the <a href="https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/ml.py">nearest neighbors model</a> and the <a href="https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/viz.py">visualization</a> endpoints.</p>
 
 <img src = "../img/labs/endpoints/nearest_neighbors.png" alt="Nearest Neighbor endpoint" class="center">
 <h5 align="center"> Nearest Neighbors API endpoint — pulls docstring from .py file. Shows successful response and error messages. </h5>
@@ -273,7 +274,7 @@ comments: true
 
 <p><strong>Timeline:</strong> 8 weeks (part-time)</p>
 
-<p>Our final Github repository can be found [here](https://github.com/jiobu1/labspt15-cityspire-g-ds).</p>
+<p>Our final Github repository can be found <a href="https://github.com/jiobu1/labspt15-cityspire-g-ds">here</a>.</p>
 
 <h2> Demo: </h2>
 <div class = "video-container">
