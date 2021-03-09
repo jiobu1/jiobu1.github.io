@@ -289,9 +289,9 @@ comments: true
 <p><strong>Data Sources:</strong></p>
 
 <ul>
-<li>US Census — https://www.census.gov/</li>
-<li>FBI Crime Data — https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration</li>
-<li>Pollution Data — https://aqs.epa.gov/aqsweb/airdata</li>
-<li>Rental Data — https://www.huduser.gov/</li>
-<li>Walkscore — https://www.walkscore.com/</li>
+<li>US Census — <a href="https://www.census.gov/">https://www.census.gov/</a></li>
+<li>FBI Crime Data — <a href="https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration">https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration</a></li>
+<li>Pollution Data —<a href="https://aqs.epa.gov/aqsweb/airdata">https://aqs.epa.gov/aqsweb/airdata</a></li>
+<li>Rental Data — <a href="https://www.huduser.gov/">https://www.huduser.gov/</a></li>
+<li>Walkscore — <a href="https://www.walkscore.com/">https://www.walkscore.com/</a></li>
 </ul>
