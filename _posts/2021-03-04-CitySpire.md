@@ -11,7 +11,8 @@ comments: true
 **TLDR:** Worked for 8 weeks (part time) as a data scientist and machine learning engineer on a remote interdisciplinary team; helped to gather, clean and wrangle data to create a recommendation model; created an AWS RDS Postgres database to store data and sent this information to front end through endpoints tested with FastAPI and deployed using AWS Elastic Beanstalk.
 
 <img src = "../img/labs/cover_art/NYC+Hotels+Best+Views.jpg" alt="NYC Hotel" class="center">
-<h4 align="center"> https://images.squarespace-cdn.com </h4>
+<h4 align="center"> https://images.squarespace-cdn.com </h4>  
+
 
 ## Introduction:
 
@@ -38,7 +39,8 @@ The first few weeks of the project were spent entirely on planning: reading thro
 To ensure that we were all on the same page, I designed our system architecture so we had a visual representation of the data acquisition, storage, analytics, machine learning, API gateway, and data feedback. This helped us begin with the end in mind rather than trying to build the bridge as we tried to across it.
 
 <img src = "../img/labs/architecture/CitySpire DS Architecture@2x.png" alt="System Architecture" class="center">
-<h4 align="center"> System architecture for CitySpire </h4>
+<h4 align="center"> System architecture for CitySpire </h4>  
+
 
 **From roadmap to implementation**
 
@@ -62,7 +64,8 @@ We had to wrangle information to make sure things such as naming conventions wer
 
 **Wrangle Function:**
 <script src="https://gist.github.com/jiobu1/6eab4270afd8e09cd234008c9839fb78.js"></script>
-<h4 align="center"> Wrangle function for cleaning FBI crime data and allowing me to merge the 50 states into a single csv. </h4> 
+<h4 align="center"> Wrangle function for cleaning FBI crime data and allowing me to merge the 50 states into a single csv. </h4>   
+
 
 **Using pipe**
 
@@ -71,7 +74,8 @@ Another noticing, was that several datasets had cities hyphenated, such as Alban
 There were several functions that needed to be applied, so I used a method called pipe to have my specific functions as a method on the DataFrame in method chains. This allows my fellow engineers to easily follow my process.
 
 <script src="https://gist.github.com/jiobu1/6677a4059e36ba5562e5a977b7a25123.js"></script>
-<h4 align="center"> Using .pipe on pollution data </h4>
+<h4 align="center"> Using .pipe on pollution data </h4>  
+
 
 
 **Evaluating:**
@@ -87,18 +91,21 @@ Another data driven decision was determining how to summarize certain informatio
 
 **![Crime Rate per 1,000 inhabitants:]("https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf")** To summarize crime data, I used FBI crime reporting standard of reporting crime per 1000 residents. This represents the number of Index offenses per 1,000 inhabitants.For example: What is the crime rate for a municipality with 513 Index offenses (murder, rape, robbery, aggravated assault, burglary, larceny-theft and motor vehicle theft), with a population of 8,280? 513 (Index offenses) ÷ 8,280 (population) = .061957 x 1,000 = 62.0 (crime per 1,000 inhabitants). This was then binned into “High”, “Medium”, and “Low” using pd.qcut.
 
-<script src="https://gist.github.com/jiobu1/abca8f9854f6399f51420f557a517743.js"></script>
+<script src="https://gist.github.com/jiobu1/abca8f9854f6399f51420f557a517743.js"></script>  
+
 
 
 **Air Quality Index:** To determine overall air quality for each city, I used the median value and then created an algorithm that separated it based on the U.S. air quality index.
 
 <img src = "../img/labs/decisions/air_quality.png" alt="AQI Basics" class="center">
-<h4 align="center">  AQI basics for ozone and particle pollution </h4>
+<h4 align="center">  AQI basics for ozone and particle pollution </h4>  
+
 
 
 **Diversity:** To summarize diversity, I use the Simpson’s Diversity Index.
 
-<img src = "../img/labs/decisions/diversity_index.png" alt="Simpson’s Diversity Index" class="center">
+<img src = "../img/labs/decisions/diversity_index.png" alt="Simpson’s Diversity Index" class="center">  
+
 
 
 * n = numbers of individuals of each ethnicity
@@ -117,10 +124,12 @@ Most people when looking to relocate, already have a city in mind but we felt th
 
 To implement the recommendation system, I used a machine learning model called ![nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html) from sci-kit learn library. After merging the different data we collected into a dataframe, I scaled the data, so that columns such as rent and population did not get weighted heavier than percentages or decimal numbers. Then a column called nearest was added to the dataframe. This data is then returned using the get_recommendations endpoint.
 
-<script src="https://gist.github.com/jiobu1/719a1016f6e6c6fcd994d04115dd80be.js"></script>
+<script src="https://gist.github.com/jiobu1/719a1016f6e6c6fcd994d04115dd80be.js"></script>  
+
 
 <img src = "../img/labs/models/nn_column.png" alt="Nearest Neighbors" class="center">
-<h4 align="center"> This is the column used in get_recommendations endpoint </h4>
+<h4 align="center"> This is the column used in get_recommendations endpoint </h4>  
+
 
 ## New Tech:
 
@@ -137,13 +146,16 @@ Having worked with Flask, there were a lot of similarities that I could carry ov
 To get started we needed a ![main.py](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/main.py) file which was provided in our repository, so to test it out, it was as simple as running the following series of commands:
 
 <img src = "../img/labs/endpoints/loading_fastapi/Screen Shot 2021-03-02 at 9.48.46 PM.png" alt="1. pipenv install — dev" class="center">
-<h4 align="center"> 1. Install all dependencies needed for application </h4>
+<h4 align="center"> 1. Install all dependencies needed for application </h4>  
+
 
 <img src = "../img/labs/endpoints/loading_fastapi/Screen Shot 2021-03-02 at 9.49.03 PM.png" alt="2. pipenv shell" class="center">
-<h4 align="center"> 2. entering into the virtual environment where the correct dependencies are installed </h4>
+<h4 align="center"> 2. entering into the virtual environment where the correct dependencies are installed </h4>  
+
 
 <img src = "../img/labs/endpoints/loading_fastapi/Screen Shot 2021-03-02 at 9.49.19 PM.png" alt="3. uvicorn app.main:app — reload" class="center">
-<h4 align="center"> 3. This deploys your FastAPI app. </h4>
+<h4 align="center"> 3. This deploys your FastAPI app. </h4>  
+
 
 If you run the server and go to the endpoint ``http://127.0.0.1:8000/docs``, you will get an auto-generated swagger documentation. FastAPI is easy to use and the best part is the documentation, which it grabs from your docstrings. This makes it easy to show how to work with the endpoints rather than having to go to separate documentation, like README.md (this would have been where I provided documentation and links if I was working with Flask).
 
@@ -160,7 +172,8 @@ Then when making changes, commit your changes using git and then run eb deploy a
 One thing we learned the hard way, was when connecting with the front end we needed to be sure to configure the correct ports so information can be received from HTTPS traffic. We had to create a 443 Listener Port when the default setting only has a Port 80, which only allows HTTP traffic.
 
 <img src = "../img/labs/aws/elastic_beanstalk.png" alt="Ports for AWS Elastic Beanstalk" class="center">
-<h4 align="center"> Ports needed for HTTP and HTTPS traffic </h4>
+<h4 align="center"> Ports needed for HTTP and HTTPS traffic </h4>  
+
 
 
 ## AWS RDS Postgres:
@@ -171,7 +184,8 @@ When developing locally, I used ![python-dotenv](https://pypi.org/project/python
 
 
 <img src = "../img/labs/aws/rds_postgres.png" alt="Loading environment variables" class="center">
-<h4 align="center"> Include Database name and url — connects to Elastic Beanstalk </h4>
+<h4 align="center"> Include Database name and url — connects to Elastic Beanstalk </h4> 
+
 
 ## API:
 
@@ -180,12 +194,14 @@ When developing locally, I used ![python-dotenv](https://pypi.org/project/python
 Having successfully established a connection to the database and deployed the basic API to AWS, the next steps were in building out the API itself, including the routes (endpoints), functions, and documentation for usage.
 
 <img src = "../img/labs/endpoints/endpoints.png" alt="Image for post" class="center">
-<h4 align="center"> Data Science Endpoints </h4>
+<h4 align="center"> Data Science Endpoints </h4>  
+
 
 For the DS team, I created the API endpoints for the ![nearest neighbors model](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/ml.py) and the ![visualization](https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/viz.py) endpoints.
 
 <img src = "../img/labs/endpoints/nearest_neighbors.png" alt="Nearest Neighbor endpoint" class="center">
-<h4 align="center"> Nearest Neighbors API endpoint — pulls docstring from .py file. Shows successful response and error messages. </h4> 
+<h4 align="center"> Nearest Neighbors API endpoint — pulls docstring from .py file. Shows successful response and error messages. </h4>  
+
 
 **Visualization**
 
@@ -194,15 +210,18 @@ Below are the interactive plotly visualization endpoints that I created. These e
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/25.embed"></iframe>
-  <h4 align="center"> /api/demographics_graph — shows percentage from each race category </h4>
+  <h4 align="center"> /api/demographics_graph — shows percentage from each race category </h4>  
+  
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/27.embed"></iframe>
-  <h4 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h4> 
+  <h4 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h4>   
+  
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/31.embed"></iframe>
-  <h4 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h4> 
+  <h4 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h4>   
+  
 
 ## Final Thoughts:
 
@@ -228,8 +247,9 @@ Thus far in the project, we’ve been able to implement rental price estimates, 
 
 I worked for 8 weeks (part time) as a data scientist and machine learning engineer on a remote interdisciplinary team to create CitySpire.
 
-<img src = "../img/labs/team/Screen Shot 2021-02-28 at 10.04.26 PM.png" alt="Team" class="center"> Team
-<h4 align="center"> CitySpire — Team G </h4>
+<img src = "../img/labs/team/Screen Shot 2021-02-28 at 10.04.26 PM.png" alt="Team" class="center">
+<h4 align="center"> CitySpire — Team G </h4>  
+
 
 I worked with an amazing team. The team included myself and three other data scientists, three web developers, one UX designer, and our Project Lead who kept up our energy and made sure we were moving in the right direction. Everyone was hardworking and immediately rolled up their sleeves ready to work. (Our team did such a good job, that out of the 8 other teams, our repository was chosen for future cohorts to build upon.)
 
@@ -244,7 +264,8 @@ Our final Github repository can be found [here](https://github.com/jiobu1/labspt
 ## Demo:
 <div class = "video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WSLJawDw1aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <h4 align="center"> CitySpire API Demo and DS Architecture </h4>
+  <h4 align="center"> CitySpire API Demo and DS Architecture </h4>  
+  
 
 ## Links:
 
