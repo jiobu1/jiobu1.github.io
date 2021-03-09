@@ -209,7 +209,8 @@ For the DS team, I created the API endpoints for the [nearest neighbors model](h
 Below are the interactive plotly visualization endpoints that I created. These endpoints enables users to see data points presented visually as well as dive deeper into each statistic. Using charts or graphs to visualize large amounts of data makes it easier to understand.
 
 
-https://plotly.com/~jiobu1/25/
+<div class = "video-container">
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/25.embed"></iframe>
 <h5 align="center"> /api/demographics_graph — shows percentage from each race category </h5>  
   
 
@@ -218,12 +219,11 @@ https://plotly.com/~jiobu1/25/
 <h5 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h5>   
   
 
-
-https://plotly.com/~jiobu1/31/
+<div class = "video-container">
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/31.embed"></iframe>
 <h5 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h5>  
 
 <p></p>
-
 
 ## Final Thoughts:  
 
@@ -268,6 +268,7 @@ Our final Github repository can be found [here](https://github.com/jiobu1/labspt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WSLJawDw1aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h5 align="center"> CitySpire API Demo and DS Architecture </h5>  
   
+<p></p>
 
 ## Links:
 
