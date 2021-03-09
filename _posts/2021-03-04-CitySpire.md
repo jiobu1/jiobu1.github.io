@@ -208,8 +208,8 @@ For the DS team, I created the API endpoints for the [nearest neighbors model](h
 **A picture is worth a thousand words.**
 Below are the interactive plotly visualization endpoints that I created. These endpoints enables users to see data points presented visually as well as dive deeper into each statistic. Using charts or graphs to visualize large amounts of data makes it easier to understand.
 
-<div class = "video-container">
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/25.embed"></iframe>
+
+https://plotly.com/~jiobu1/25/
 <h5 align="center"> /api/demographics_graph — shows percentage from each race category </h5>  
   
 
@@ -218,8 +218,8 @@ Below are the interactive plotly visualization endpoints that I created. These e
 <h5 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h5>   
   
 
-<div class = "video-container">
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/31.embed"></iframe>
+
+https://plotly.com/~jiobu1/31/
 <h5 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h5>  
 
 <p></p>
