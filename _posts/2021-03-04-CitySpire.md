@@ -210,30 +210,32 @@ Below are the interactive plotly visualization endpoints that I created. These e
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/25.embed"></iframe>
-  <h5 align="center"> /api/demographics_graph — shows percentage from each race category </h5>  
+<h5 align="center"> /api/demographics_graph — shows percentage from each race category </h5>  
   
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/27.embed"></iframe>
-  <h5 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h5>   
+<h5 align="center"> /api/employment_graph — breaks down industry sectors and employment type </h5>   
   
 
 <div class = "video-container">
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~jiobu1/31.embed"></iframe>
-  <h5 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h5>  
+<h5 align="center"> /api/aqi_graph — goes more in depth into air quality for each city </h5>  
+
+<p></p>
 
 
-## Final Thoughts: 
+## Final Thoughts:  
 
-Working on this project has been both exciting and rewarding. I was excited about learning on the job and was glad that my training and education, thus far, set me up for success for working with AWS and FastAPI. I was pleasantly surprised at how easy AWS makes it to deploy and manage web apps, and impressed with FastAPI and its built in features that make using it for creating DS endpoints a no brainer. <br>
+Working on this project has been both exciting and rewarding. I was excited about learning on the job and was glad that my training and education, thus far, set me up for success for working with AWS and FastAPI. I was pleasantly surprised at how easy AWS makes it to deploy and manage web apps, and impressed with FastAPI and its built in features that make using it for creating DS endpoints a no brainer.  
 
-Another important lesson I learned from this process is when working with stakeholders and a large team, constant communication is key. It was important to utilize the product scope to make sure that we were lock step in achieving the vision that the stakeholder had for CitySpire, and not our false assumptions. Also, communication was important in making sure each team member knew what they were responsible for. Creating the system architecture and trello board provided us an important road map as well as kept us accountable. <br>
+Another important lesson I learned from this process is when working with stakeholders and a large team, constant communication is key. It was important to utilize the product scope to make sure that we were lock step in achieving the vision that the stakeholder had for CitySpire, and not our false assumptions. Also, communication was important in making sure each team member knew what they were responsible for. Creating the system architecture and trello board provided us an important road map as well as kept us accountable.  
 
-CitySpire is the most ambitious project I have undertaken. I learned many things such as scoping a project, communication, and being open to learning on the job. As such, it provided to me many valuable, foundational experiences that I’ll surely keep with me throughout my entire career.<br>
+CitySpire is the most ambitious project I have undertaken. I learned many things such as scoping a project, communication, and being open to learning on the job. As such, it provided to me many valuable, foundational experiences that I’ll surely keep with me throughout my entire career.
 
-**Potential Improvements:** <br>
+**Potential Improvements:**   
 
-Thus far in the project, we’ve been able to implement rental price estimates, walk score, crime, population, pollution, and a livability score on the DS API as well as the front-end web site. Some possible next steps are: <br>
+Thus far in the project, we’ve been able to implement rental price estimates, walk score, crime, population, pollution, and a livability score on the DS API as well as the front-end web site. Some possible next steps are:
 
 - Rental prediction model
 - Population prediction model
@@ -242,36 +244,34 @@ Thus far in the project, we’ve been able to implement rental price estimates, 
 - Integrating other data points, such as bus and bike scores
 - Implementing visualization APIs
 - Creating a NLP recommendation system, where users can set criteria and receive results based on their query.
- 
-<br>
-**Team Overview:** <br>
 
-<p>I worked for 8 weeks (part time) as a data scientist and machine learning engineer on a remote interdisciplinary team to create CitySpire. <br>
+**Team Overview:**  
+
+I worked for 8 weeks (part time) as a data scientist and machine learning engineer on a remote interdisciplinary team to create CitySpire. <br>
 
 <img src = "../img/labs/team/Screen Shot 2021-02-28 at 10.04.26 PM.png" alt="Team" class="center">
 <h5 align="center"> CitySpire — Team G </h5>  
 
 
-I worked with an amazing team. The team included myself and three other data scientists, three web developers, one UX designer, and our Project Lead who kept up our energy and made sure we were moving in the right direction. Everyone was hardworking and immediately rolled up their sleeves ready to work. (Our team did such a good job, that out of the 8 other teams, our repository was chosen for future cohorts to build upon.) <br>
+I worked with an amazing team. The team included myself and three other data scientists, three web developers, one UX designer, and our Project Lead who kept up our energy and made sure we were moving in the right direction. Everyone was hardworking and immediately rolled up their sleeves ready to work. (Our team did such a good job, that out of the 8 other teams, our repository was chosen for future cohorts to build upon.)  
 
-**Role:** App Architect, Data Scientist, Machine Learning Engineer, Data Visualization <br>
+**Role:** App Architect, Data Scientist, Machine Learning Engineer, Data Visualization  
 
+**DS Tech Stack:** Python, FastAPI, AWS RDS Postgres, AWS Elastic Beanstalk, Docker  
 
-**DS Tech Stack:** Python, FastAPI, AWS RDS Postgres, AWS Elastic Beanstalk, Docker <br>
+**Timeline:** 8 weeks (part-time)  
 
-**Timeline:** 8 weeks (part-time) <br>
-
-Our final Github repository can be found [here](https://github.com/jiobu1/labspt15-cityspire-g-ds). <br>
+Our final Github repository can be found [here](https://github.com/jiobu1/labspt15-cityspire-g-ds).
 
 ## Demo:
 <div class = "video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WSLJawDw1aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <h4 align="center"> CitySpire API Demo and DS Architecture </h4>  
+<h5 align="center"> CitySpire API Demo and DS Architecture </h5>  
   
 
 ## Links:
 
-**Data Sources:** <br>
+**Data Sources:**
 
 - US Census — https://www.census.gov/
 - FBI Crime Data — https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration
