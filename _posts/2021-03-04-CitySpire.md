@@ -168,9 +168,9 @@ comments: true
 <p>After creating and testing our basic endpoints, now we were ready to deploy the app to AWS Elastic Beanstalk. Our Team Lead provided us with with 12 digit account ID(IAM), and an AWS username & password. After installing <code>awscli</code> and <code>awsebcli</code> , we were able to run the following commands and we were in business!</p>
 
 <ol>
-<li> `eb init --platform docker CHOOSE-YOUR-NAME --region us-east-1`</li>
-<li> `eb create --region us-east-1 CHOOSE-YOUR-NAME`</li>
-<li> `eb open`</li>
+<li> <code>eb init --platform docker CHOOSE-YOUR-NAME --region us-east-1</code></li>
+<li> <code>eb create --region us-east-1 CHOOSE-YOUR-NAME</code></li>
+<li> <code>eb open</code></li>
 </ol>
 
 <p>Then when making changes, commit your changes using git and then run eb deploy and eb open to re-deploy the application with the changes.</p>
@@ -186,7 +186,7 @@ comments: true
 
 <p>Creating a database with AWS RDS was very straightforward. I signed in to the AWS Console and chose the region. Then I just went through the standard create and chose a PostgreSQL, and I was able to create the database instance with their default settings.</p>
 
-<p>When developing locally, I used <a href="https://pypi.org/project/python-dotenv/">python-dotenv</a> to load an <code>.env</code> file. (The <code>.env</code> file is listed in </code>.gitignore<code>.) This made sure that the my username and password were protected. When deploying, we used the Elastic Beanstalk console for <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html#environments-cfg-softwaresettings-console">configuring environment variables</a> there.</p>
+<p>When developing locally, I used <a href="https://pypi.org/project/python-dotenv/">python-dotenv</a> to load an <code>.env</code> file. (The <code>.env</code> file is listed in <code>.gitignore</code>.) This made sure that the my username and password were protected. When deploying, we used the Elastic Beanstalk console for <a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html#environments-cfg-softwaresettings-console">configuring environment variables</a> there.</p>
 
 
 <img src = "../img/labs/aws/rds_postgres.png" alt="Loading environment variables" class="center">
