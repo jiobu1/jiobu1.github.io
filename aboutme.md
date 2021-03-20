@@ -7,7 +7,8 @@ tags: [Data Science, Educator, My Journey]
 ---
 
 <h2> My Journey Begins </h2>
-<p><strong> Making sense out of the world using data. Part time student, full time mom. </strong></p>
+<p><strong> Making sense out of the world using data.</strong></p>
+<p><strong> Part time student, full time mom. </strong></p>
 
 
 <p> Hello, and welcome to my magical data driven journey. I am switching gears and looking to dive into a new career of data science. So come along and enjoy the scenery as I learn and work on many new projects. </p>
