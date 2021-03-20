@@ -1,14 +1,12 @@
 ---
 layout: page
 title: My Magical Data Driven Journey
-subtitle: My Journey Begins
+subtitle: Making sense out of the world using data.
 gh-repo: github.com/jiobu1
 tags: [Data Science, Educator, My Journey]
 ---
 
-<p align="center"><strong> Making sense out of the world using data. Part time student, full time mom. </strong></p>
-
-<h3> My Journey Begins </h3>
+<p align="center"><strong>  Part time student, full time mom. </strong></p>
 
 <p> Hello, and welcome to my magical data driven journey. I am switching gears and looking to dive into a new career of data science. So come along and enjoy the scenery as I learn and work on many new projects. </p>
 
