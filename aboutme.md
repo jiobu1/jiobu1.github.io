@@ -7,8 +7,7 @@ tags: [Data Science, Educator, My Journey]
 ---
 
 <h1 align="center"> My Magical Data Driven Journey </h1>
-<p align="center"><strong> Making sense out of the world using data.</strong></p>
-<p align="center"><strong> Part time student, full time mom. </strong></p>
+<p align="center"><strong> Making sense out of the world using data. Part time student, full time mom. </strong></p>
 
 
 <h3> My Journey Begins </h3>
