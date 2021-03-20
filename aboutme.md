@@ -6,10 +6,12 @@ gh-repo: github.com/jiobu1
 tags: [Data Science, Educator, My Journey]
 ---
 
-<h2> My Journey Begins </h2>
-<p><strong> Making sense out of the world using data.</strong></p>
-<p><strong> Part time student, full time mom. </strong></p>
+<h1 align="center"> My Magical Data Driven Journey </h1>
+<p align="center"><strong> Making sense out of the world using data.</strong></p>
+<p align="center"><strong> Part time student, full time mom. </strong></p>
 
+
+<h3> My Journey Begins </h3>
 
 <p> Hello, and welcome to my magical data driven journey. I am switching gears and looking to dive into a new career of data science. So come along and enjoy the scenery as I learn and work on many new projects. </p>
 
