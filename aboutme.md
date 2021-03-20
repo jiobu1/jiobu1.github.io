@@ -1,14 +1,12 @@
 ---
 layout: page
-title: About me
+title: My Magical Data Driven Journey
 subtitle: My Journey Begins
 gh-repo: github.com/jiobu1
 tags: [Data Science, Educator, My Journey]
 ---
 
-<h1 align="center"> My Magical Data Driven Journey </h1>
 <p align="center"><strong> Making sense out of the world using data. Part time student, full time mom. </strong></p>
-
 
 <h3> My Journey Begins </h3>
 
