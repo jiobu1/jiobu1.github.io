@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Scraping with Selenium and Beautiful Soup
+title: Web Scraping -- \ Selenium and \ Beautiful Soup
 subtitle: web scraping greatschools.org
 gh-repo: github.com/jiobu1
 #gh-badge: [star, fork, follow]
