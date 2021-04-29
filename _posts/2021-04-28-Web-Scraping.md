@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Scraping -- \ Selenium and \ Beautiful Soup
+title: Web Scraping with Selenium and Beautiful Soup
 subtitle: web scraping greatschools.org
 gh-repo: github.com/jiobu1
 #gh-badge: [star, fork, follow]
@@ -69,7 +69,7 @@ comments: true
 
 <br>
 
-<script src= "https://gist.github.com/jiobu1/8db59f015074fee1df78f79f096c512d"></script>
+<script src="https://gist.github.com/jiobu1/8db59f015074fee1df78f79f096c512d.js"></script>
 
 <br>
 <br>
@@ -86,7 +86,7 @@ comments: true
 
 <br>
 
-<script src= "https://gist.github.com/jiobu1/f3a237cfff88ac6feddbfaa04633f182"></script>
+<script src="https://gist.github.com/jiobu1/f3a237cfff88ac6feddbfaa04633f182.js"></script>
 <h5 align="center"> Scraping greatschools.org using selenium </h5>
 
 <br>
@@ -177,7 +177,7 @@ comments: true
 
 <br>
 
-<script src="https://gist.github.com/jiobu1/2d96eb09dfc0a25b0da3dd91cfdcb7e5"></script>
+<script src="https://gist.github.com/jiobu1/2d96eb09dfc0a25b0da3dd91cfdcb7e5.js"></script>
 <h5 align="center"> used city list spreadsheet and a state abbreviations dictionary to generate this newly formatted cities list </h5>
 
 <br>
@@ -185,7 +185,7 @@ comments: true
 
 <p> 2. Below is the code that I used to get the schools information for the respective cities.</p>
 
-<script src="https://gist.github.com/jiobu1/e0d388692cab90cb9e0ea82acc79c215"></script>
+<script src="https://gist.github.com/jiobu1/e0d388692cab90cb9e0ea82acc79c215.js"></script>
 
 <br>
 
@@ -197,7 +197,7 @@ comments: true
 
 <br>
 
-<script src="https://gist.github.com/jiobu1/2fbc003ce688d58b384206d2842d7511"></script>
+<script src="https://gist.github.com/jiobu1/2fbc003ce688d58b384206d2842d7511.js"></script>
 <h5 align="center"> while loop that continues to incrementally scrape greatschools </h5>
 
 <br>
@@ -221,7 +221,7 @@ comments: true
 
 <p>- The last part of the code, utilizes Beautiful Soup to parse the elements of the table.</p>
 
-<script src="https://gist.github.com/jiobu1/dc8eb4dca368b0c66f3764216e0198a4"></script>
+<script src="https://gist.github.com/jiobu1/dc8eb4dca368b0c66f3764216e0198a4.js"></script>
 <h5 align="center"> this code parses the table and then appends the info to it’s own record. </h5>
 
 <br>
@@ -264,7 +264,7 @@ comments: true
 <br>
 <br>
 
-<script src="https://gist.github.com/jiobu1/bfe8360c7cbcd32e73d10e3f450b7aba"></script>
+<script src="https://gist.github.com/jiobu1/bfe8360c7cbcd32e73d10e3f450b7aba.js"></script>
 <h5 align="center"> schools endpoint returns a list of schools based on users desired city and school category </h5>
 
 <br>
@@ -274,7 +274,7 @@ comments: true
 
 <br>
 
-<script src="https://gist.github.com/jiobu1/81f529dbac80980dea0973eccaa12637"></script>
+<script src="https://gist.github.com/jiobu1/81f529dbac80980dea0973eccaa12637.js"></script>
 <h5 align="center"> returns total schools, number of private, public, charter, and percentage of highly performing schools </h5>
 
 <br>
