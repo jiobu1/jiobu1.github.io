@@ -210,6 +210,7 @@ comments: true
 <h5 align="center"> pagination summary text </h5>
 
 <br>
+<br>
 
 <img src = "../img/labs2/web_scraping/great_schools/pagination_summary_html.png" alt="greatschool table view" class="center">
 <h5 align="center"> pagination summary HTML </h5>
