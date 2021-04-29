@@ -8,7 +8,7 @@ tags: [Web Scraping, Selenium, Beautiful Soup, Dynamic Web Page]
 comments: true
 ---
 
-<p><strong>Summary</strong>This article dives into the nitty, gritty of my first experience web scraping a greatschools.org, a dynamic website. I delve into the libraries used and the packages necessary for using Selenium and Beautiful Soup. As a burgeoning, data scientist, web scraping is very much essential in data science field. I hope this article piques your curiosity.</p>
+<p><strong>Summary: </strong>This article dives into the nitty, gritty of my first experience web scraping a greatschools.org, a dynamic website. I delve into the libraries used and the packages necessary for using Selenium and Beautiful Soup. As a burgeoning, data scientist, web scraping is very much essential in data science field. I hope this article piques your curiosity.</p>
 
 <br>
 
