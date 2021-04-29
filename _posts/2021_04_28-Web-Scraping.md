@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Web Scraping with Selenium and Beautiful Soup
-subtitle: web scraping greatschools.org
+title: CitySpire
+subtitle: An app's tale, from idea to deployment
 gh-repo: github.com/jiobu1
 #gh-badge: [star, fork, follow]
-tags: [Web Scraping, Selenium, Beautiful Soup, Dynamic Web Page]
+tags: [App Deployment, AWS, AWS RDS, AWS Elastic Beanstalk, Data Science, Machine Learning, Teamwork, Data Visualization, Plotly]
 comments: true
 ---
 
