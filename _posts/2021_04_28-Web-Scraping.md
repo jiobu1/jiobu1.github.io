@@ -10,6 +10,8 @@ comments: true
 
 <p><strong>Summary</strong>This article dives into the nitty, gritty of my first experience web scraping a greatschools.org, a dynamic website. I delve into the libraries used and the packages necessary for using Selenium and Beautiful Soup. As a burgeoning, data scientist, web scraping is very much essential in data science field. I hope this article piques your curiosity.</p>
 
+<br>
+
 <img src = "../img/labs2/web_scraping/cover_art/web_scraping.png" alt="Image of VS Code file" class="center">
 <h5 align="center"> Photo by Jisha Obukwelu </h5>
 
@@ -54,10 +56,13 @@ comments: true
 
 <p>I do not have much experience working with web scraping, so my first attempt was with with Beautiful Soup.</p>
 
+<br>
+
 <h2> Beautiful Soup </h2>
 
 <p>Beautiful Soup is a Python library for getting data out of HTML, XML, and other markup languages. Beautiful Soup helps you pull particular content from a webpage, remove the HTML markup, and save the information. It is a tool for web scraping that helps you clean up and parse the documents you have pulled down from the web. You can look for specific HTML tags.</p>
 
+<br>
 <br>
 
 <img src = "../img/labs2/web_scraping/great_schools/html.png" alt="Inspector Element" class="center">
@@ -66,6 +71,7 @@ comments: true
 
 <script src= "https://gist.github.com/jiobu1/8db59f015074fee1df78f79f096c512d"></script>
 
+<br>
 <br>
 
 <p>When I implemented this code, it yielded an empty array.</p>
@@ -102,13 +108,17 @@ comments: true
 <h5 align="center"> School column had several things included in one column </h5>
 
 <br>
+<br>
 
 <img src = "../img/labs2/web_scraping/great_schools/school_column_html.png" alt="Inspector Element of School Column" class="center">
 <h5 align="center"> row school contains - school score and rating, name, and address </h5>
 
 <br>
+<br>
 
 <p>After several trial and errors, I was able to create loop that used Selenium to access the web page and Beautiful Soup to parse the information in the <code>School</code> column.</p>
+
+<br>
 
 <h2> Data Extraction and Cleaning </h2>
 <p><strong> Prerequisites: </strong></p>
@@ -143,9 +153,9 @@ comments: true
 <p>These are the common HTML elements that I looked for with Beautiful Soup.</p>
 
 <ol>
-<li> The <code><table></code> tag is used to render data in the form of a table. <code><td></code> for columns, and <code><tr></code> is for rows.</li>
-<li> <code><div></code> is used as a container to represent an area on the screen.</li>
-<li> <code><a></code> defines a hyperlink.</li>
+<li> The <code>table</code> tag is used to render data in the form of a table. <code>td</code> for columns, and <code>tr</code> is for rows.</li>
+<li> <code>div</code> is used as a container to represent an area on the screen.</li>
+<li> <code>a</code> defines a hyperlink.</li>
 <li> To get the specific row, column, container, etc. you will then specify the <code>class</code>, to parse out the data you are trying to retrieve.</li>
 </ol>
 
