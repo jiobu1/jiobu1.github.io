@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Scraping -- \ using Selenium \ and Beautiful Soup
+title: Web Scraping with Selenium and Beautiful Soup
 subtitle: web scraping greatschools.org
 gh-repo: github.com/jiobu1
 #gh-badge: [star, fork, follow]
@@ -181,6 +181,7 @@ comments: true
 <h5 align="center"> used city list spreadsheet and a state abbreviations dictionary to generate this newly formatted cities list </h5>
 
 <br>
+<br>
 
 <p> 2. Below is the code that I used to get the schools information for the respective cities.</p>
 
@@ -193,6 +194,8 @@ comments: true
 <p>- <code>driver = webdriver.Chrome()</code> This opened up the Chrome browser that what used to parse greatschool's dynamic site.</p>
 
 <p>- Since, each city has a different number of schools, I could not set a specific page number so I utilized the <code>pagination-summary</code>.</p>
+
+<br>
 
 <script src="https://gist.github.com/jiobu1/2fbc003ce688d58b384206d2842d7511"></script>
 <h5 align="center"> while loop that continues to incrementally scrape greatschools </h5>
@@ -258,10 +261,12 @@ comments: true
 <p><strong><a href= "https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/external.py"> Schools.csv </a></strong></p>
 
 <br>
+<br>
 
 <script src="https://gist.github.com/jiobu1/bfe8360c7cbcd32e73d10e3f450b7aba"></script>
 <h5 align="center"> schools endpoint returns a list of schools based on users desired city and school category </h5>
 
+<br>
 <br>
 
 <p><strong><a href= "https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/app/ml.py"> Schools Listing Endpoint </a></strong></p>
