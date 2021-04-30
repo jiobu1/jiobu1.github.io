@@ -293,18 +293,16 @@ comments: true
 
 <p><strong>New: </strong></p>
 
-<ul>
-<li><code>/all_cities</code></li> - list all the cities in the database
-<li><code>/api/transitscore</code></li> - gets bus score from walkscore.com
-<li><code>/api/bikescore</code></li> - get bike score from walkscore.com
-<li><code>/api/school_summary</code></li> - create summary of school information that was scraped from greatschools.org
-<li><code>/api/population_forecast_graph</code></li> - create 10 year forecast of population using Prophet
-<li><code>/api/rental_forecast_graph</code></li> - create 10 year rental forecast for studio to 3 bedroom rentals using past 5 year of HUD rental pricing data.
-<li><code>/api/temperature</code></li> - gets current weather from openweather.org
-<li><code>/api/job_opportunities</code></li> - users can query job positions in desired city using data from indeed.com
-<li><code>/api/rental_listing</code></li> - returns rental listings from realtor.com
-<li><code>/api/schools_listing</code></li> - returns listings of schools in desired city based on school category (pre-k, elementary, middle, and high school)
-</ul>
+<p><code>/all_cities</code> - list all the cities in the database </p>
+<p><code>/api/transitscore</code> - gets bus score from walkscore.com </p>
+<p><code>/api/bikescore</code> - get bike score from walkscore.com </p>
+<p><code>/api/school_summary</code> - create summary of school information that was scraped from greatschools.org </p>
+<p><code>/api/population_forecast_graph</code> - create 10 year forecast of population using Prophet </p>
+<p><code>/api/rental_forecast_graph</code> - create 10 year rental forecast for studio to 3 bedroom rentals using past 5 year of HUD rental pricing data </p>
+<p><code>/api/temperature</code> - gets current weather from openweather.org </p>
+<p><code>/api/job_opportunities</code> - users can query job positions in desired city using data from indeed.com </p>
+<p><code>/api/rental_listing</code> - returns rental listings from realtor.com </p>
+<p><code>/api/schools_listing</code> - returns listings of schools in desired city based on school category (pre-k, elementary, middle, and high school) </p>
 
 <h2>Final Thoughts: </h2>
 
@@ -364,7 +362,7 @@ comments: true
 
 <p>Our end product can be found <a href = "https://github.com/Lambda-School-Labs/PT17_cityspire-a-ds" target="blank"> here</a>.</p>
 
-<h2>Links: <h2>
+<h2>Links: </h2>
 
 <p><strong>Data Sources: </strong></p>
 
