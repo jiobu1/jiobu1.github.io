@@ -275,6 +275,7 @@ comments: true
 <script src="https://gist.github.com/jiobu1/cb306053d1e08d2f1cbe8c9cc21b734c.js"></script>
 
 <br>
+<br>
 
 <p><code>/api/livability</code> - update <code>livability score</code> to include <code>transitscore</code>, <code>bikescore</code>, and <code>percent_high_performing_schools</code></p>
 
