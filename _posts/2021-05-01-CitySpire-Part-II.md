@@ -204,10 +204,6 @@ comments: true
 
 <br>
 
-<p>to this:</p>
-
-<br>
-
 <img src = "../img/labs2/cityspire/api/population/population_cleaned.png" alt="Cleaned Population.csv" class="center">
 <h5 align="center"> population_cleaned.csv </h5>
 
