@@ -178,7 +178,8 @@ comments: true
 
 <script src="https://gist.github.com/jiobu1/e0d388692cab90cb9e0ea82acc79c215.js"></script>
 
-</br>
+<br>
+
 
 <p>To find out more about this process you can read my article <a href = "https://jiobu1.github.io/2021-04-28-Web-Scraping/" target="blank"> here</a>.</p>
 
