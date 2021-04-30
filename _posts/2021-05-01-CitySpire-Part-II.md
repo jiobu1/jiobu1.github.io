@@ -344,19 +344,12 @@ comments: true
 
 <br>
 
-<img src= "../img/labs2/cityspire/api/livability/livability_score.png" alt="livability score" class="center">
-<h5 align="center"> livability score </h5>
-
-<br>
-
-<p>The team I started out with had five web developers, four data scientists, three iOS developers, and  our Team Project Lead. During the course of these 8 weeks, we became a team of five web developers, three data scientists (I was one), just one iOS developer, and our Team Project Lead. Fortunately, those left worked hard to achieve the stakeholder's vision.</p>
-
-<br>
-
 <img src= "../img/labs2/cityspire/team/team.png" alt="CitySpire Team A" class="center">
 <h5 align="center"> CitySpire Team A </h5>
 
 <br>
+
+<p>The team I started out with had five web developers, four data scientists, three iOS developers, and  our Team Project Lead. During the course of these 8 weeks, we became a team of five web developers, three data scientists (I was one), just one iOS developer, and our Team Project Lead. Fortunately, those left worked hard to achieve the stakeholder's vision.</p>
 
 <p><strong>Role: </strong>API Engineer, Data Scientist, Machine Learning Engineer, Data Visualization</p>
 
