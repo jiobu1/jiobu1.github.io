@@ -8,7 +8,7 @@ tags: [App Deployment, AWS, AWS RDS, AWS Elastic Beanstalk, Data Science, Machin
 comments: true
 ---
 
-<p><strong>TLDR: </strong> For 8 more weeks (part time), I continued working with a (different) cross functional team on CitySpire application. The data science team collected and cleaned data, performed data analysis and feature engineering, added new features, used machine learning to create forecasting models and get recommendations. These new features were deployed using FastAPI to create the endpoints, and finally this application was deployed to a Amazon Web Services (AWS). AWS Elastic Beanstalk hosted our API and the data was stored with an  AWS Relational Database Service, specifically Postgres. While for many, they were building upon another team's inherited code base, this was actually <a href = "https://github.com/Lambda-School-Labs/labspt15-cityspire-g-ds" target="blank">my previous team's work</a>. Unfortunately, this did not mean smooth sailing for me, there was a lot of learning, struggles, and hiccups along the way.<p>
+<p><strong>TLDR: </strong> For 8 more weeks (part time), I continued working with a (different) cross functional team on CitySpire application. The data science team collected and cleaned data, performed data analysis and feature engineering, added new features, used machine learning to create forecasting models and get recommendations. These new features were deployed using FastAPI to create the endpoints, and finally this application was deployed to a Amazon Web Services (AWS). AWS Elastic Beanstalk hosted our API and the data was stored with an  AWS Relational Database Service, specifically Postgres. While for many, they were building upon another team's inherited code base, this was actually <a href = "https://github.com/Lambda-School-Labs/labspt15-cityspire-g-ds" target="blank"> my previous team's work</a>. Unfortunately, this did not mean smooth sailing for me, there was a lot of learning, struggles, and hiccups along the way.<p>
 
 <br>
 
@@ -27,7 +27,7 @@ comments: true
 
 <p><strong>Solution: </strong>The CitySpire 2.0 application takes the hassle out of finding the perfect city to call home by giving you a data driven recommendation in a simple format.</p>
 
-<p><strong>Constraints: </strong>My team and I were working on a tight deadline. We had to quickly get up to speed on an existing code base and integrate the <a href = "https://www.notion.so/CitySpire-9134a15c1cc3481e87f8d121f7ef3843" target="blank">feature specifications</a> of the stakeholder.</p>
+<p><strong>Constraints: </strong>My team and I were working on a tight deadline. We had to quickly get up to speed on an existing code base and integrate the <a href = "https://www.notion.so/CitySpire-9134a15c1cc3481e87f8d121f7ef3843" target="blank"> feature specifications</a> of the stakeholder.</p>
 
 <p>The data science team had to finding data sources (web scraping, getting an API key, public records, etc.) to provide users with the necessary information. We had to update the current recommendation (machine learning model) and livability model, to include the  new data points. We were also tasked to  create rental, population, and weather predictions.  All this data had to be returned in a format usable by front end and can connect to the back end.</p>
 
@@ -54,7 +54,7 @@ comments: true
 
 <p><strong>Implementation: </strong></p>
 
-<p>There were several new features that had to be implemented, so we rolled up our sleeves and got right to work. We used <a href = "https://trello.com/b/LpH3VjbS/labspt17-cityspire-a" target="blank">Trello</a> to outline user stories and create cards to keep us on track, so that we could meet the deadline to <a href = "https://www.notion.so/CitySpire-9134a15c1cc3481e87f8d121f7ef3843" target="blank">release features</a>.</p>
+<p>There were several new features that had to be implemented, so we rolled up our sleeves and got right to work. We used <a href = "https://trello.com/b/LpH3VjbS/labspt17-cityspire-a" target="blank"> Trello</a> to outline user stories and create cards to keep us on track, so that we could meet the deadline to <a href = "https://www.notion.so/CitySpire-9134a15c1cc3481e87f8d121f7ef3843" target="blank"> release features</a>.</p>
 
 <br>
 
@@ -154,13 +154,13 @@ comments: true
 
 <p>Other features were not as easy to get. One feature that definitely stretched our ability was web scraping great schools for school data to present to our users. Unfortunately, at the time the site did not have a publicly accessible API. This was my first foray into web scraping.</p>
 
-<p>To access this data I used<a href = "https://selenium-python.readthedocs.io/" target="blank">Selenium</a> and<a href = "https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="blank">Beautiful Soup</a> to create a schools csv. These were the packages necessary to work with these two libraries: Both libraries have decent documentation which was helpful in the process.</p>
+<p>To access this data I used<a href = "https://selenium-python.readthedocs.io/" target="blank"> Selenium</a> and<a href = "https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="blank"> Beautiful Soup</a> to create a schools csv. These were the packages necessary to work with these two libraries: Both libraries have decent documentation which was helpful in the process.</p>
 
 <ol>
 <li><code> pipenv install bs4 </code></li>
 <li><code> pipenv install requests </code></li>
 <li><code> pipenv install selenium </code></li>
-<li> Selenium needs a <a href = "https://selenium-python.readthedocs.io/installation.html" target="blank">web driver</a> (the browser it automates). </li>
+<li> Selenium needs a <a href = "https://selenium-python.readthedocs.io/installation.html" target="blank"> web driver</a> (the browser it automates). </li>
 </ol>
 
 <p>The current CitySpire application has data for 374 cities. I created a csv formatting the cities based on great school's formatting (state/city), to extract school information.</p>
@@ -180,13 +180,13 @@ comments: true
 
 </br>
 
-<p>To find out more about this process you can read my article <a href = "https://jiobu1.github.io/2021-04-28-Web-Scraping/" target="blank">here</a>.</p>
+<p>To find out more about this process you can read my article <a href = "https://jiobu1.github.io/2021-04-28-Web-Scraping/" target="blank"> here</a>.</p>
 
 <p><strong>MODEL: </strong></p>
 
 <p>Another feature in the product specification was to create a forecast for population, rental, and weather data.</p>
 
-<p>I created a forecast model for population data. Utilizing 10 years of  historical population data from the Census Bureau, I created a model that predicted <a href = "https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/notebooks/model/population2010-2019/file/metropop_2010_2019.csv" target="blank">population growth</a> for the next 10 years. This model was created using FB Prophet. This was a new library for me, so I was excited to dig into the <a href = "https://facebook.github.io/prophet/" target="blank">documentation</a> and get my hands dirty.</p>
+<p>I created a forecast model for population data. Utilizing 10 years of  historical population data from the Census Bureau, I created a model that predicted <a href = "https://github.com/jiobu1/labspt15-cityspire-g-ds/blob/main/notebooks/model/population2010-2019/file/metropop_2010_2019.csv" target="blank"> population growth</a> for the next 10 years. This model was created using FB Prophet. This was a new library for me, so I was excited to dig into the <a href = "https://facebook.github.io/prophet/" target="blank"> documentation</a> and get my hands dirty.</p>
 
 <p>Prophet is a procedure for forecasting time series data based on an additive model. It works best with time series that have strong seasonal effects and several seasons of historical data. The input to Prophet is always a dataframe with two columns: <code>ds</code> and <code>y</code>.  The <code>ds</code>  (datestamp) column should be of a format expected by Pandas. The <code>y</code> column must be numeric, and represents the measurement we wish to forecast.</p>
 
@@ -363,7 +363,7 @@ comments: true
 
 <p><strong>Timeline: </strong>8 weeks (part-time)</p>
 
-<p>Our end product can be found <a href = "https://github.com/Lambda-School-Labs/PT17_cityspire-a-ds" target="blank">here</a>.</p>
+<p>Our end product can be found <a href = "https://github.com/Lambda-School-Labs/PT17_cityspire-a-ds" target="blank"> here</a>.</p>
 
 <h2>Links: <h2>
 
