@@ -304,6 +304,8 @@ comments: true
 <p><code>/api/rental_listing</code> - returns rental listings from realtor.com </p>
 <p><code>/api/schools_listing</code> - returns listings of schools in desired city based on school category (pre-k, elementary, middle, and high school) </p>
 
+<br>
+
 <h2>Final Thoughts: </h2>
 
 <p>This project has been a very illuminating experience. It was exciting to learn "on the job", to explore new libraries and technologies. Working on a cross functional team, highlighted the importance of communication, both written and verbal. This opportunity stretched me as a professional, and I will value the collaboration and  constructive feedback provided.</p>
@@ -334,6 +336,8 @@ comments: true
 
 <p>The possibilities for this application are boundless.</p>
 
+<br>
+
 <h2>Team overview: </h2>
 
 <p>I worked for 8 weeks (part time) as an API engineer, data scientist, and machine learning engineer on a remote cross function team to build upon CitySpire.<p>
@@ -361,6 +365,8 @@ comments: true
 <p><strong>Timeline: </strong>8 weeks (part-time)</p>
 
 <p>Our end product can be found <a href = "https://github.com/Lambda-School-Labs/PT17_cityspire-a-ds" target="blank"> here</a>.</p>
+
+<br>
 
 <h2>Links: </h2>
 
