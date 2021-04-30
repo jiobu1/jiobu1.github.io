@@ -110,7 +110,7 @@ comments: true
 
 <br>
 
-<img src = "../img/labs/aws/elastic_beanstalk.png" alt="Environment Configuration" class="center">
+<img src = "../img/labs/aws/rds_postgres.png" alt="Environment Configuration" class="center">
 <h5 align="center"> Include database name and URL, API keys, and other environment properties necessary for app. </h5>
 
 <br>
